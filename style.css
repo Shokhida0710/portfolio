@@ -207,16 +207,45 @@ to {
 
 }
 @keyframes words{
-0%,20%
-content:"Web Developer";
+0%,20%{
+  content: "Web Developer";
 
 }
 
+ 21%,40%(
+   content: "Software Developer";
+
+ )
+ 41%,60%{
+  content: "Web Designer";
+
+ }
+
+ 61%,80%{
+    content:"You Tube";
+
+ }
+81%,100%{
+  content:"Script Writer";
+
+}
+
+ }
+
+@media(max-width: 1000px){
+    .home{
+        gap: 4rem;
+    }
+}
+@media(max-width: 995px){
+ .home{
+flex-direction: column;
+margin:5rem 4rem
+
+ }
 
 
 
 
-
-
-
+}
 
