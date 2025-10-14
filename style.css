@@ -104,3 +104,31 @@ line-height:1.3;
 
 
 }
+span{
+    color: #b74b4b;
+}
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom:1rem;
+font-weight: 700;
+}
+.home-img{
+border-radius:50%;
+
+}
+.home-img img{
+    position: relative;
+width:32vw;
+border-radius:50%;
+box-shadow:0 0 25px solid;
+cursor: pointer;
+transition:0.2s linear;
+}
+.home-imgimg:hover{
+font-size:1.8rem;
+font-weight: 500;
+
+
+}
+
+
