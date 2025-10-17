@@ -37,7 +37,10 @@ header {
     align-items: center;
     z-index: 100;
 }
-
+.frontend-role{
+    color: #FF3B3B;
+    font-weight: 700;
+}
 nav {
     display: flex; 
     align-items: center;
@@ -207,11 +210,7 @@ font-weight: 500;
     color: black;
     box-shadow: 0 0 25px #FF3B3B;
 }
-.typing-text {
-    font-size: 34px; 
-    font-weight: 600;
-    min-width: 280px;
-}
+
 
 .typing-text span {
     position: relative;
